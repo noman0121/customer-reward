@@ -3,8 +3,8 @@
 All Login present in app/services/rewards
 
 ### Requirements:
- - `Ruby version >= 2.3.1`
- - `Bundler version 1.12.5`
+ - `Ruby version >= 2.6.3`
+ - `Bundler version 1.17.2`
 
 ### Install:
  - `bundle install`
@@ -15,5 +15,5 @@ All Login present in app/services/rewards
 
 ### Run:
  - `rails s`
- - `open new terminal and run command`
+ - `open new tab in terminal and run command`
  - `curl -X POST localhost:3000/rewards --data-binary @input.txt -H "Content-Type: text/plain"`
