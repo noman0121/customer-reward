@@ -1,6 +1,6 @@
 
 
-Implementation a system for calculating rewards based on recommendations of customers.
+All Login present in app/services/rewards
 
 ### Requirements:
  - `Ruby version >= 2.3.1`
@@ -15,4 +15,5 @@ Implementation a system for calculating rewards based on recommendations of cust
 
 ### Run:
  - `rails s`
- - `curl -X POST localhost:3000/rewards --data-binary @example.txt -H "Content-Type: text/plain"`
+ - `open new terminal and run command`
+ - `curl -X POST localhost:3000/rewards --data-binary @input.txt -H "Content-Type: text/plain"`
